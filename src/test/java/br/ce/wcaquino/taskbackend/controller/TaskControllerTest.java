@@ -69,6 +69,7 @@ public class TaskControllerTest {
     @Test
     public void shouldCreateTaskSuccessfully() throws ValidationException {
         Task task = new Task();
+        //scenary
         task.setTask("Teste");
         task.setDueDate(LocalDate.now());
         //task.setDueDate(LocalDate.now());
